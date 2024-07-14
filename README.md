@@ -14,7 +14,7 @@
 -   **SDL (Statutory Deduction Levy)**: Statutory Deduction Levy, calculated as a percentage of Gross Pay.
 -   **WCF (Work Injury Compensation Fund)**: Work Injury Compensation Fund, calculated as a percentage of Gross Pay.
 
-## Formula Breakdown
+## PAYE Breakdown
 
 ### Deductions
 
@@ -50,11 +50,11 @@
 
 ### Net Pay Calculation
 
--Net Pay = Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
+-   Net Pay = Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
 
 ### Payroll Amount
 
--Payroll Amount = Net Pay - Advances - Fuel Allowance - HESLB deductions
+-   Payroll Amount = Net Pay - Advances - Fuel Allowance - HESLB deductions
 
 ## Summary of Formulas
 
