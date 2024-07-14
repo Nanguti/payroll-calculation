@@ -18,76 +18,52 @@
 
 ### Deductions
 
-1. **NSSF**:
-   \[
-   \text{NSSF} = \text{Gross Pay} \times 10\%
-   \]
+-   **NSSF**:
+    -NSSF = Gross Pay \* 10%
 
-2. **PAYE**:
+-   **PAYE**:
 
-    - If Taxable Income ≤ 270,000: PAYE = 0
-    - If 270,000 < Taxable Income ≤ 519,999:
-      \[
-      \text{PAYE} = (\text{Taxable Income} - 270,000) \times 8\%
-      \]
-    - If 520,000 ≤ Taxable Income ≤ 759,999:
-      \[
-      \text{PAYE} = (\text{Taxable Income} - 520,000) \times 20\% + 20,000
-      \]
-    - If 760,000 ≤ Taxable Income ≤ 999,999:
-      \[
-      \text{PAYE} = (\text{Taxable Income} - 760,000) \times 25\% + 68,000
-      \]
-    - If Taxable Income ≥ 1,000,000:
-      \[
-      \text{PAYE} = (\text{Taxable Income} - 1,000,000) \times 30\% + 128,000
-      \]
+-   If Taxable Income ≤ 270,000: PAYE = 0
+-   If 270,000 < Taxable Income ≤ 519,999:
+    ```
+    PAYE = (Taxable Income - 270,000) * 8%
+    ```
+-   If 520,000 ≤ Taxable Income ≤ 759,999:
+    ```
+    PAYE = (Taxable Income - 520,000) * 20% + 20,000
+    ```
+-   If 760,000 ≤ Taxable Income ≤ 999,999:
+    ```
+    PAYE = (Taxable Income - 760,000) * 25% + 68,000
+    ```
+-   If Taxable Income ≥ 1,000,000:
 
-3. **SDL**:
-   \[
-   \text{SDL} = \text{Gross Pay} \times 3.5\%
-   \]
+    ```
+    PAYE = (Taxable Income - 1,000,000) * 30% + 128,000
+    ```
 
-4. **WCF**:
-   \[
-   \text{WCF} = \text{Gross Pay} \times 0.5\%
-   \]
+-   **SDL**:
+    -SDL = Gross Pay \* 3.5%
+
+-   **WCF**:
+    -WCF = Gross Pay \* 0.5%
 
 ### Net Pay Calculation
 
-\[
-\text{Net Pay} = \text{Taxable Income} - \text{PAYE} - \text{SDL} - \text{WCF} - \text{Fuel Allowance} - \text{Advances} - \text{HESLB deductions}
-\]
+-Net Pay = Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
 
 ### Payroll Amount
 
-\[
-\text{Payroll Amount} = \text{Net Pay} - \text{Advances} - \text{Fuel Allowance} - \text{HESLB deductions}
-\]
+-Payroll Amount = Net Pay - Advances - Fuel Allowance - HESLB deductions
 
 ## Summary of Formulas
 
--   **NSSF**:
-    \[
-    \text{NSSF} = \text{Gross Pay} \times 10\%
-    \]
+-   **NSSF**: NSSF (10% of Gross Pay) = Gross Pay \* 10%
 
--   **SDL**:
-    \[
-    \text{SDL} = \text{Gross Pay} \times 3.5\%
-    \]
+-   **SDL**: SDL = Gross Pay \* 3.5%
 
--   **WCF**:
-    \[
-    \text{WCF} = \text{Gross Pay} \times 0.5\%
-    \]
+-   **WCF**: WCF = Gross Pay \* 0.5%
 
--   **Net Pay**:
-    \[
-    \text{Net Pay} = \text{Taxable Income} - \text{PAYE} - \text{SDL} - \text{WCF} - \text{Fuel Allowance} - \text{Advances} - \text{HESLB deductions}
-    \]
+-   **Net Pay**: Net Pay = Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
 
--   **Payroll Amount**:
-    \[
-    \text{Payroll Amount} = \text{Net Pay} - \text{Advances} - \text{Fuel Allowance} - \text{HESLB deductions}
-    \]
+-   **Payroll Amount**: Payroll Amount = Net Pay - Advances - Fuel Allowance - HESLB deductions
