@@ -58,12 +58,12 @@
 
 ## Summary of Formulas
 
--   **NSSF**: NSSF (10% of Gross Pay) = Gross Pay \* 10%
+-   **NSSF**: 10% of Gross Pay = Gross Pay \* 10%
 
--   **SDL**: SDL = Gross Pay \* 3.5%
+-   **SDL**: Gross Pay \* 3.5%
 
--   **WCF**: WCF = Gross Pay \* 0.5%
+-   **WCF**: Gross Pay \* 0.5%
 
--   **Net Pay**: Net Pay = Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
+-   **Net Pay**: Taxable Income - PAYE - SDL - WCF - Fuel Allowance - Advances - HESLB deductions
 
--   **Payroll Amount**: Payroll Amount = Net Pay - Advances - Fuel Allowance - HESLB deductions
+-   **Payroll Amount**: Net Pay - Advances - Fuel Allowance - HESLB deductions
